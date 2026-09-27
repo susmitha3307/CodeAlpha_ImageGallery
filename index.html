@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <span>✦</span> Image Gallery
+        </div>
+
+        <p>Explore beautiful moments</p>
+    </header>
+
+
+    <main class="container">
+
+        <div class="search-box">
+            <input
+                type="text"
+                id="searchInput"
+                placeholder="🔍 Search images..."
+            >
+        </div>
+
+
+        <div class="categories">
+            <button class="category-btn active" data-category="all">
+                All
+            </button>
+
+            <button class="category-btn" data-category="nature">
+                Nature
+            </button>
+
+            <button class="category-btn" data-category="city">
+                City
+            </button>
+
+            <button class="category-btn" data-category="animals">
+                Animals
+            </button>
+
+            <button class="category-btn" data-category="travel">
+                Travel
+            </button>
+        </div>
+
+
+     
+        <section class="gallery" id="gallery">
+
+            
+            <div class="gallery-item" data-category="nature" data-title="Beautiful Mountain">
+                <img
+                    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+                    alt="Beautiful Mountain"
+                >
+
+                <div class="image-info">
+                    <h3>Beautiful Mountain</h3>
+                  
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="city" data-title="Modern City">
+                <img
+                    src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=800&q=80"
+                    alt="Modern City"
+                >
+
+                <div class="image-info">
+                    <h3>Modern City</h3>
+              
+                </div>
+            </div>
+
+
+       
+            <div class="gallery-item" data-category="animals" data-title="Cute Dog">
+                <img
+                    src="https://images.unsplash.com/photo-1552053831-71594a27632d?auto=format&fit=crop&w=800&q=80"
+                    alt="Cute Dog"
+                >
+
+                <div class="image-info">
+                    <h3>Dog</h3>
+                  
+                </div>
+            </div>
+
+
+            <!-- Image 4 -->
+            <div class="gallery-item" data-category="travel" data-title="Tropical Beach">
+                <img
+                    src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+                    alt="Tropical Beach"
+                >
+
+                <div class="image-info">
+                    <h3>Tropical Beach</h3>
+                  
+                </div>
+            </div>
+
+
+            <div class="gallery-item" data-category="nature" data-title="Green Forest">
+                <img
+                    src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80"
+                    alt="Green Forest"
+                >
+
+                <div class="image-info">
+                    <h3>Green Forest</h3>
+                  
+                </div>
+            </div>
+
+
+            <div class="gallery-item" data-category="city" data-title="City Lights">
+                <img
+                    src="https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=800&q=80"
+                    alt="City Lights"
+                >
+
+                <div class="image-info">
+                    <h3>City Lights</h3>
+        
+                </div>
+            </div>
+
+
+            <div class="gallery-item" data-category="animals" data-title="Wild Tiger">
+                <img
+                    src="https://images.unsplash.com/photo-1561731216-c3a4d99437d5?auto=format&fit=crop&w=800&q=80"
+                    alt="Wild Tiger"
+                >
+
+                <div class="image-info">
+                    <h3>Wild Tiger</h3>
+                    
+                </div>
+            </div>
+
+
+          
+            <div class="gallery-item" data-category="travel" data-title="Mountain Travel">
+                <img
+                    src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80"
+                    alt="Mountain Travel"
+                >
+
+                <div class="image-info">
+                    <h3>Mountain Travel</h3>
+            
+                </div>
+            </div>
+
+
+            <div class="gallery-item" data-category="nature" data-title="Waterfall">
+                <img
+                    src="https://images.unsplash.com/photo-1433086966358-54859d0ed716?auto=format&fit=crop&w=800&q=80"
+                    alt="Waterfall"
+                >
+
+                <div class="image-info">
+                    <h3>Waterfall</h3>
+              
+                </div>
+            </div>
+
+
+            
+            <div class="gallery-item" data-category="travel" data-title="Desert Adventure">
+                <img
+                    src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=800&q=80"
+                    alt="Desert Adventure"
+                >
+
+                <div class="image-info">
+                    <h3>Desert Adventure</h3>
+                </div>
+            </div>
+
+
+            
+            <div class="gallery-item" data-category="animals" data-title="Beautiful Bird">
+                <img
+                    src="https://images.unsplash.com/photo-1444464666168-49d633b86797?auto=format&fit=crop&w=800&q=80"
+                    alt="Beautiful Bird"
+                >
+
+                <div class="image-info">
+                    <h3>Beautiful Bird</h3>
+              
+                </div>
+            </div>
+
+
+          
+            <div class="gallery-item" data-category="city" data-title="Night City">
+                <img
+                    src="https://images.unsplash.com/photo-1514565131-fce0801e5785?auto=format&fit=crop&w=800&q=80"
+                    alt="Night City"
+                >
+
+                <div class="image-info">
+                    <h3>Night City</h3>
+          
+                </div>
+            </div>
+
+        </section>
+
+
+        <div id="noResults" class="no-results">
+            <div>🔍</div>
+            <h2>No images found</h2>
+            <p>Try another search or category.</p>
+        </div>
+
+    </main>
+
+
+  
+    <div class="lightbox" id="lightbox">
+
+        <button class="close-btn" id="closeBtn">
+            &times;
+        </button>
+
+        <button class="prev-btn" id="prevBtn">
+            &#10094;
+        </button>
+
+        <div class="lightbox-content">
+
+            <img id="lightboxImage" src="" alt="">
+
+            <div class="lightbox-caption">
+                <h2 id="lightboxTitle"></h2>
+                <p id="lightboxCategory"></p>
+            </div>
+
+        </div>
+
+        <button class="next-btn" id="nextBtn">
+            &#10095;
+        </button>
+
+    </div>
+
+
+    <footer>
+        <p>© 2026 Image Gallery</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
